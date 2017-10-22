@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FirstGitSample</string>
+    <string name="btn_title">Start</string>
+</resources>
