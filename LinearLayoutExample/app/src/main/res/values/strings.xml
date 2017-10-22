@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LinearLayoutExample</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="btn_title">Send</string>
+</resources>
