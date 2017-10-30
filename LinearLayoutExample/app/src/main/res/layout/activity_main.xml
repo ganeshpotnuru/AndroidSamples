@@ -4,30 +4,49 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingLeft="20dp"
-    android:paddingRight="20dp" >
+    android:paddingRight="20dp"
+    android:background="@color/colorPrimary">
+
 
     <EditText
+        android:id="@+id/et_to"
+        android:maxLines="1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:hint="@string/to"
         android:background="@color/editBoxColor"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:paddingLeft="20dp"
         />
 
     <EditText
+        android:id="@+id/et_subject"
+        android:maxLines="1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:hint="@string/subject"
-        android:background="@color/editBoxColor"/>
+        android:layout_gravity="right"
+        android:background="@color/editBoxColor"
+        android:layout_marginBottom="20dp"/>
 
     <EditText
+        android:id="@+id/et_message"
+        android:maxLines="1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:hint="@string/message"
         android:background="@color/editBoxColor"/>
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:text="@string/btn_title"
-        android:background="@color/buttonColor"/>
+        android:background="@color/buttonColor"
+        android:layout_marginTop="40dp"
+        android:id="@+id/btn_send"
+        />
 
    </LinearLayout>
