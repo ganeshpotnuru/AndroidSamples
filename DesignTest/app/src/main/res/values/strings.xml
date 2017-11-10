@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DesignTest</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="home">Home</string>
+    <string name="title_activity_basic_test">BasicActivityTest</string>
+</resources>
