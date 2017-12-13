@@ -10,12 +10,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends FragmentActivity {
 
     Button buttonOne;
     Button buttoTwo;
